@@ -108,15 +108,7 @@ public class Main {
             return;
         }
         String texto = lerTexto(sc, "Texto a imprimir: ");
-        int posicao = lerIntNoIntervalo(sc, "Posição (0=esquerda, 1=centro, 2=direita): ", 0, 2);
-        int estilo = lerIntNoIntervalo(sc,
-                "Estilo (0=fonte A, 1=fonte B, 2=sublinhado, 4=invertido, 8=negrito; some para combinar): ", 0, 15);
-        int tamanho = lerIntNoIntervalo(sc, "Tamanho (0=normal, 1 a 7=maior): ", 0, 7);
-        int copias = lerIntNoIntervalo(sc, "Quantidade de cópias (1 a 5): ", 1, 5);
-
-        for (int i = 1; i <= copias; i++) {
-            impressora.imprimirTexto(texto, posicao, estilo, tamanho);
-        }
+        impressora.imprimirTexto(texto, 0, 0, 0);   // esquerda, fonte A, tamanho normal
         impressora.cortarPapel();
     }
 
@@ -125,9 +117,7 @@ public class Main {
             return;
         }
         String dados = lerTexto(sc, "Conteúdo do QR Code: ");
-        int tamanho = lerIntNoIntervalo(sc, "Tamanho (1 a 6): ", 1, 6);
-        int nivel = lerIntNoIntervalo(sc, "Nível de correção (1 a 4): ", 1, 4);
-        impressora.imprimirQRCode(dados, tamanho, nivel);
+        impressora.imprimirQRCode(dados, 4, 2);   // tamanho 4, correção 2
         impressora.cortarPapel();
     }
 
@@ -156,6 +146,7 @@ public class Main {
             caminho = "XMLSAT.xml";
         }
         impressora.imprimirXMLSAT(caminho);
+        impressora.cortarPapel();
     }
 
     private static void opcaoXMLCancelamento(Scanner sc, Impressora impressora) {
@@ -167,6 +158,7 @@ public class Main {
             caminho = "CANC_SAT.xml";
         }
         impressora.imprimirXMLCancelamento(caminho);
+        impressora.cortarPapel();
     }
 
     private static void opcaoBip(Scanner sc, Impressora impressora) {
