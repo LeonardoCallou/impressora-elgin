@@ -108,3 +108,10 @@ Com a impressora: Não tivemos tempo para testar com a impresssora
 - [Leonardo Callou]
 - [Sofia Pelario]
 - [Yasmin Croti]
+
+---
+
+## Contribuições
+
+Este projeto está aberto a melhorias e contribuições para
+aprimorar o sistema de controle da impressora térmica Elgin.
