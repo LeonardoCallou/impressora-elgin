@@ -4,7 +4,7 @@
 
 ## 📘 Sobre o Projeto
 
-Este projeto foi desenvolvido por Leonardo Callou, Sofia Pelario para se comunicar com uma impressora térmica **Elgin i8/i9** usando a biblioteca `E1_Impressora01.dll`. O sistema é um programa de console com login e um menu de operações: configurar e abrir a conexão, imprimir texto, QR Code, código de barras e cupons SAT, abrir a gaveta, emitir sinal sonoro, avançar o papel e consultar o status do papel. Faz parte da disciplina de **Programação Orientada a Objetos**.
+Este projeto foi desenvolvido por Leonardo Callou, Sofia Pelario e Yasmin Croti para se comunicar com uma impressora térmica **Elgin i8/i9** usando a biblioteca `E1_Impressora01.dll`. O sistema é um programa de console com login e um menu de operações: configurar e abrir a conexão, imprimir texto, QR Code, código de barras e cupons SAT, abrir a gaveta, emitir sinal sonoro, avançar o papel e consultar o status do papel. Faz parte da disciplina de **Programação Orientada a Objetos**.
 
 ---
 
@@ -107,4 +107,4 @@ Com a impressora: Não tivemos tempo para testar com a impresssora
 
 - Leonardo Callou
 - Sofia Pelario
-- [Yasmin Croti]
+- Yasmin Croti
