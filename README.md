@@ -105,6 +105,6 @@ Com a impressora: Não tivemos tempo para testar com a impresssora
 ## 👥 Autores
 
 
-- [Leonardo Callou]
-- [Sofia Pelario]
+- Leonardo Callou
+- Sofia Pelario
 - [Yasmin Croti]
